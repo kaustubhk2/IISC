@@ -1,11 +1,13 @@
 # syntax=docker/dockerfile:1
 FROM busybox:latest
-COPY --chmod=755 <<EOF /app/run.sh
-#!/bin/sh
-while true; do
-  echo -ne "The time is now $(date +%T)\\r"
-  sleep 1
-done
-EOF
 
-ENTRYPOINT /app/run.sh
+COPY requirements.txt requirements.txt
+
+RUN python -m pip install -r requirements.txt
+RUN pip install joblib
+
+COPY Train.csv ./train.csv
+COPY Test.csv ./test.csv
+
+
+COPY inference.py ./inference.py
