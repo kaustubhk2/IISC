@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/abe2af5f84a649cea358f9ccbb9a2eba/artifacts
+end_time: 1731947928060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: abe2af5f84a649cea358f9ccbb9a2eba
+run_name: treasured-sponge-327
+run_uuid: abe2af5f84a649cea358f9ccbb9a2eba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731947364670
+status: 3
+tags: []
+user_id: Lenovo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e58ceefd9b3b48d9851d359835950f4a/artifacts
+end_time: 1731945751287
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e58ceefd9b3b48d9851d359835950f4a
+run_name: stately-shrike-489
+run_uuid: e58ceefd9b3b48d9851d359835950f4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731945192987
+status: 3
+tags: []
+user_id: Lenovo
