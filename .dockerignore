@@ -1,0 +1,9 @@
+passphrase.txt
+logs/
+content/
+.git
+*.md
+.cache
+mlruns/
+mlartifacts/
+.venv
